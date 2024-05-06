@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super_Puper_Paroli</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="passwordOutput">Генератор паролей "12345"</h1>
+        <h2 class="mini-text">Создай самый надежный пароль на планете</h2>
+        
+        <div class="mini-window">
+                <div class = 'form-group'>
+                <label class= 'password-length'for="password-length">
+                    Длина пароля:
+                </div>
+                <div class = 'form-group'>
+                    <select name="" id ="password-length">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                    </select>
+                </label>
+                </div>
+    
+                <div class = 'form-group'>
+                <div class = 'include-numbers'>
+                <label for="include-numbers">
+                    <input type="checkbox" name="" id="include-numbers" class="checkbox-number">
+                    Использовать цифры
+                </label>
+                </div>
+                </div>
+
+                <div class = 'form-group'>
+                <div class = 'include-special'>
+                <label for="include-special">
+                    <input type="checkbox" name="" id="include-special" class="checkbox-special">
+                    Использовать специальные символы
+                </label>
+                </div>
+                </div>
+                <div class = 'form-group'>
+                <div class = 'include-uppercase'>
+                <label for="include-uppercase">
+                    <input type="checkbox" name="" id="include-uppercase" class="checkbox-uppercase">
+                    Использовать верхний регистр
+                </label>
+                </div>
+                </div>
+            <div class = 'form-group'>
+                <button class="generate-btn">СГЕНЕРИРОВАТЬ ПАРОЛЬ</button> 
+            </div>
+            <div class = 'form-group'>
+                <button class="copy-btn">СКОПИРОВАТЬ ПАРОЛЬ</button>
+            </div>
+            <div class = 'form-group'>
+                <div class='your-password-txt'>
+                    Твой пароль:
+                </div>
+            </div>
+            <div class = 'form-group'>
+                <p type="text" class="your-password" id ='your-password'>********</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
